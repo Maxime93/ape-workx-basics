@@ -1,0 +1,21 @@
+name: dummy-token-ape-python
+hardhat:
+  fork:
+    ethereum:
+      mainnet:
+        upstream_provider: alchemy
+# dependencies:
+#   - name: OpenZeppelin
+#     github: OpenZeppelin/openzeppelin-contracts
+#     version: 4.4.2
+# solidity:
+#   import_remapping:
+#     - "@openzeppelin=OpenZeppelin/4.4.2"
+deployments:
+  ethereum:
+    mainnet:
+      - contract_type: MyContract
+        address: 0xc123aAacCcbBbaAa444777000111222111222111
+    goerli:
+      - contract_type: MyContract
+        address: 0xc222000cCcbBbaAa444777000111222111222222

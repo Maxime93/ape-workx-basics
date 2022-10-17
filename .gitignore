@@ -1,0 +1,4 @@
+.pytest_cache
+node_modules
+.build
+**/__pycache__/
